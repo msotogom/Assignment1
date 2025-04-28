@@ -3,6 +3,7 @@ package assignment1;
 public class GameOfLife implements Shape {
     private int[][] shape;
 
+    //Makes a game of life method with a starting shape
     public GameOfLife(int[][] shape) {
         this.shape = shape;
     }
