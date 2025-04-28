@@ -23,9 +23,7 @@ public class GameOfLife implements Shape {
                 int aliveNeighbors = countAliveNeighbors(i, j);
 
                 if (shape[i][j] == 1) {
-                    if (aliveNeighbors < 2 || aliveNeighbors > 3) {
-                        next[i][j] = 0;
-                    }
+                    if (aliveNeighbors < 2 || aliveNeighbors > 3) next[i][j] = 0;
                     else {
                         next[i][j] = 1;
                     }
