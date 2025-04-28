@@ -15,7 +15,7 @@ public class Matrix {
         }
         data = new int[rows][cols];
     }
-
+    //Creates a matrix from a 2d Array.
     public Matrix(int[][] inputData) {
         if (inputData == null || inputData.length == 0 || inputData[0].length == 0) {
             throw new IllegalArgumentException();
